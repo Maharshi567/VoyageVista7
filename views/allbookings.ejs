@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head.ejs');%>
+  <title>AllBookings</title>
+   <link rel="stylesheet" href="CSS/style.css" />
+ 
+</head>
+
+<body>
+    
+    <%Alluserbookings.forEach(booking =>{%>
+        <li><%= booking %></li>
+    <%})%>
+
+   
+  <script src="/JS/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "voyagevista-project",
+  "version": "1.0.0",
+  "description": "This is a project for the people who loves adventure and travelling.Meaning of VoyageVista is \"Explore new horizons and discover new experiences\".",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maharshi Danidhariya",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.16.1"
+  }
+}

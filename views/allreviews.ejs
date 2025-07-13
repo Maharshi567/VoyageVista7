@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head.ejs');%>
+  <title>Allreviews</title>
+   <link rel="stylesheet" href="CSS/style.css" />
+ 
+</head>
+
+<body>
+    
+    <%Alluserreviews.forEach(review =>{%>
+        <li><%= review %></li>
+    <%})%>
+
+   
+  <script src="/JS/script.js"></script>
+</body>
+
+</html>

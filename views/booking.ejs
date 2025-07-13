@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head.ejs');%>
+    <title>BookingForm</title>
+     <link rel="stylesheet" href="/CSS/style.css" />
+</head>
+<body>
+    
+    <form action="/voyagevista/Booking" method="post" id="BookingForm">
+         <div id="d2">
+      <img id="logo" src="https://tse2.mm.bing.net/th?id=OIP.1w32jfmwnv_lLfEVOQnlZgHaH6&pid=Api&P=0&h=180">
+      <h1 id="h1">VoyageVista</h1>
+      </div>
+        <h1 id="BookingFormHead">Booking Form</h1>
+        <h3 class="H1">Name of Head:<input id="h10" type="text" placeholder="Enter Name of Head" name="headname"></h3>
+         <h3 class="H1">Email of Head:<input  id="h11"  type="email" placeholder="Enter Email of Head" name="heademail"></h3>
+          <h3  class="H1">Phone Number:<input id="h12" type="text" placeholder="Enter Phone Number" name="phonenumber"></h3>
+           <h3  class="H1">Places To Visit:<input id="h13" type="text" placeholder="Enter Places To Visit" name="placetovisit"></h3>
+          <h3 class="H1">Advance Date:<input  id="h14" type="date" placeholder="Enter Advance Date" name="advancedate"></h3>
+          <h3 class="H1">Number of Days:<input  id="h15" type="number" placeholder="Enter Number of Days" name="days"></h3>
+          <h3  class="H1">Number of People:<input id="h16" type="number" placeholder="Enter Number of People" name="numberofpeople"></h3> 
+
+           <button id="b1">Submit Booking Form</button>
+
+
+    </form>
+
+
+     <script src="/JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,494 @@
+* {
+  margin: 0%;
+}
+
+#logo{
+  position: relative;
+  margin: 0.2em;
+  width: 4em;
+  height:4em;
+  border: 2px solid red;
+  border-radius: 100%;
+  align-items: center;
+}
+#logo:hover{
+   width: 7em;
+  height:7em;
+  transition-duration: 2s;
+
+}
+#header1{
+  position: static;
+  background-color: snow;
+  top: 0;
+  width: 100%;
+  height: auto;
+  
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+#headerdiv{
+  border-bottom: 2px solid rgb(2, 2, 254);
+}
+#d2{
+  display: flex;
+ 
+  align-items: center;
+  width:fit-content;
+  height: fit-content;
+}
+
+#h1{
+    font-size: 1.5em;
+    font-weight: 100;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:red;
+    
+
+}
+nav {
+  position:absolute;
+  margin: 0.6em;
+  width:100%;
+  height:auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ background-color: aliceblue;
+  
+  
+}
+@media only screen and (max-width:745px){
+ 
+  nav{
+    width: fit-content;
+    height: fit-content;
+    display:flex;
+  flex-direction: column; 
+  margin-top: 5em;
+  position: fixed ;
+  font-size: 1.4em;
+}
+.D1{
+  position: relative;
+  margin-top: 5em;
+  margin-left: 14em;
+  margin-right: 2em;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+.I2{
+  width: 20em;
+  height: auto;
+  align-items: center;
+  align-self: center;
+  margin: 0.5em;
+}
+
+.UL1{
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2em;
+  margin: 1em;
+}
+
+.H2{
+  position: absolute;
+  color:dodgerblue;
+  font-size: 2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-top: 0.5em;
+  margin-left: 1em;
+}
+
+}
+
+@media only screen and (min-width:745px){
+  
+.D1{
+  position: absolute;
+  margin-top: 2.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+
+  
+
+.I2{
+  width: 50em;
+  height: auto;
+  align-items: center;
+  align-self: center;
+  margin: 0.5em;
+}
+
+.UL1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2em;
+  margin: 1em;
+}
+
+.H2{
+  position: relative;
+  color:dodgerblue;
+  font-size: 3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-top: 3.5em;
+  margin-left: 5em;
+}
+
+ 
+}
+
+
+
+.I1{
+  width: 2em;
+  height: 2em;
+  border: 2px solid red;
+  border-radius: 100px;
+ 
+}
+.I1:hover{
+  width: 5em;
+  height: 5em;
+  transition-duration: 2s;
+}
+.A1{
+  text-decoration: none;
+  color:darkblue;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  font-size:1em;
+  position: relative;
+  margin: 0.5em;
+  
+}
+
+
+
+.D2{
+  position: relative;
+  margin: 2em;
+  border: 2px solid darkblue;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+
+
+
+
+.A2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border: 2px solid dodgerblue;
+text-decoration: none;
+text-align: center;
+width: 10em;
+height: auto;
+font-size: 1.5em;
+background-color: snow;
+margin: 2em;
+}
+.A2:hover{
+  text-decoration:underline;
+  color: red;
+  
+}
+.A3{
+  width: auto;
+  height: fit-content;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+ margin: 0.5em;
+ margin-left: 2em;
+ margin-right: 2em;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: darkblue;
+}
+
+.A3:hover{
+  text-decoration: underline;
+  
+}
+#d3{
+  width: auto;
+  height: auto;
+  position: relative;
+   margin-left: 4em;
+   display: flex;
+   flex-direction: row;
+   
+}
+@media only screen and (max-width:600px){
+ .A3{
+  font-size: 1.4em;
+  position: relative;
+  margin-left: 0.1em;
+ }
+
+
+}
+
+@media only screen and (max-width: 910px){
+  #d3{
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+}
+
+
+.H1{
+  font-family: monospace;
+  color:red;
+}
+
+#ul1{
+  font-family:monospace;
+  font-size: 1.5em;
+  color:darkblue;
+  background-color:aliceblue;
+}
+#footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+#TripHead{
+  font-size: 2em;
+  position:relative;
+  margin-bottom: 1em;
+  color: crimson;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: underline;
+
+
+}
+
+#ReviewForm{
+  position: relative;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  align-items:flex-start;
+  border: 5px solid darkblue;
+  border-radius: 1em;
+  background-image: url("https://i.pinimg.com/originals/01/87/41/018741ec1af1ec991835a085317ebc26.jpg");
+  background-size:cover;
+  
+}
+#Contact{
+   position: relative;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  align-items:flex-start;
+  border: 5px solid darkblue;
+  border-radius: 1em;
+  background-image: url("https://cdn3.geckoandfly.com/wp-content/uploads/2017/07/travel-quotes-adventure-01.jpg");
+  background-size:cover;
+}
+
+#h4,#h5,#h6,#h7,#h8,#h9{
+  position: relative;
+  margin-bottom: 4em;
+ 
+}
+#h4{
+  width: 15em;
+}
+#h5{
+  width: 22em;
+}
+#h6{
+  width: 20em;
+}
+#h7{
+  width:10em
+}
+#h9{
+  width: 26em;
+  height: 2em;
+
+}
+#b1{
+width: fit-content;
+height: fit-content;
+color: red;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-bottom: 1em;
+
+}
+
+#Arrow{
+  position:fixed;
+  top: auto;
+  font-size: 4em;
+  text-decoration: none;
+}
+
+#Arrow:hover{
+  color: red;
+}
+
+@media only screen and (max-width:745px) {
+  #Arrow{
+  position:fixed;
+  top: 8.5em;
+  font-size: 8em;
+  text-decoration: none;
+}
+}
+
+#BookingForm{
+  position: relative;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-start;
+  border: 5px solid darkblue;
+  border-radius: 2em;
+ background-image: url("https://www.expertlychosen.com/images/1265-worldwide-adventure-experiences.jpg");
+
+  background-size:cover;
+}
+#Admin{
+    position: relative;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-start;
+  border: 5px solid darkblue;
+  border-radius: 2em;
+ background-image: url("http://i.huffpost.com/gen/1866826/images/o-ADVENTURE-facebook.jpg ");
+ /* https://wallpaperaccess.com/full/655261.jpg */
+  background-size:cover;
+}
+#Adminoptions{
+   position: relative;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-start;
+  border: 5px solid darkblue;
+  border-radius: 2em;
+ background-image: url("https://nukunuuku.com/youkiyusan/wp-content/uploads/PhotoCollage_1606258138046-scaled.jpg");
+ /* https://wallpaperaccess.com/full/655261.jpg */
+  background-size:cover;
+}
+
+#BookingFormHead{
+    color:lightcyan;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  text-decoration: underline;
+}
+#h10,#h11,#h12,#h13,#h14,#h15,#h16{
+
+  position: relative;
+  margin-bottom: 3em;
+ 
+}
+
+#h10{
+  width: 18em;
+}
+#h11{
+  width: 20em;
+}
+#h13{
+  width: 20em;
+}
+#H7,#H8{
+  font-size: 1.5em;
+  color: lightcyan;
+  position: relative;
+  margin: 1.5em;
+  text-decoration: none;
+}
+
+#ul2{
+  position: relative;
+  align-items: center;
+  margin-top: 2em;
+   margin-bottom: 2em;
+  font-size: 1.1em;
+  
+}
+
+#h12,#h13,#h14,#h15,#h16,#h17,#h18,#h19{
+  position: relative;
+  margin-bottom: 2em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+#Adminhead{
+  font-size: 2em;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: underline;
+  color:lightcyan;
+   
+  margin-bottom: 1em;
+}
+#Contacthead{
+  font-size: 2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: underline;
+  color:dodgerblue;
+   margin-top: 0.5em;
+  
+}
+#Adminoptionshead{
+   font-size: 2em;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: underline;
+  color:red;
+   margin-top: 0.5em;
+}

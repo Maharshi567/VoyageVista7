@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head.ejs');%>
+    <title>WriteReview</title>
+     <link rel="stylesheet" href="/CSS/style.css" />
+</head>
+<body>
+    
+    <form action="/voyagevista/UserReview" method="post" id="ReviewForm">
+          <div id="d2">
+      <img id="logo" src="https://tse2.mm.bing.net/th?id=OIP.1w32jfmwnv_lLfEVOQnlZgHaH6&pid=Api&P=0&h=180">
+      <h1 id="h1">VoyageVista</h1>
+      </div>
+        <h1 id="TripHead">Write Review</h1>
+        <h3 class="H1">Name:<input id="h4" type="text" placeholder="Enter Your Name" name="username"></h3>
+         <h3 class="H1">Email:<input  id="h5"  type="email" placeholder="Enter Your Email" name="email"></h3>
+          <h3  class="H1">Place Name:<input id="h6" type="text" placeholder="Enter Place Name" name="placename"></h3>
+           <h3  class="H1">Sport Name:<input id="h7" type="text" placeholder="Enter Sport Name" name="sportname"></h3>
+          <h3 class="H1">Date of Visit:<input  id="h8" type="date" placeholder="Enter Visited Date" name="date"></h3>
+          <h3  class="H1">Review:<input id="h9" type="text" placeholder="Write Your Review" name="review"></h3> 
+
+           <button id="b1">Submit Review</button>
+
+    </form>
+
+
+     <script src="/JS/script.js"></script>
+</body>
+</html>
